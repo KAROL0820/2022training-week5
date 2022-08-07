@@ -1,0 +1,110 @@
+.fz14 {
+  font-size: 14px; }
+
+.fz24 {
+  font-size: 24px; }
+
+.mgr-50 {
+  margin-right: 50px; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1.5; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.side-left {
+  background-color: #F8F9FA;
+  width: 296px; }
+
+.wrap {
+  padding: 32px 32px; }
+
+.logo {
+  margin-bottom: 32px; }
+
+.sidebar {
+  margin-bottom: 363px; }
+  .sidebar li {
+    padding-bottom: 26px; }
+    .sidebar li a {
+      color: #212529;
+      display: block; }
+      .sidebar li a:hover {
+        color: #198754; }
+
+.icons-green {
+  color: #198754; }
+
+.andy-pic {
+  height: 40px;
+  width: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 24px; }
+
+.account-name h2 {
+  color: #212529; }
+
+.account-name p {
+  color: #6C757D;
+  font-size: 14px; }
+
+.side-right {
+  width: 998px;
+  padding: 32px; }
+
+/*# sourceMappingURL=all.css.map */
